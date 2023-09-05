@@ -20,3 +20,6 @@ This configuration allows the recurrent neural network to learn patterns and rel
 The dataset was split into training and validation datasets before training the model.
 
 After training the model, as previously explained, the same dataset was passed to the model to predict the 7th column, which corresponds to the predicted average Fantasy Football vote for the 2023/2024 season.
+These forecasts were used to calculate an index based on the preview and attendance of the last season. In addition, the same index was applied for players who are not present in the forecast dataset, using the average Fanta-Vote of the last season.
+All the index obtained for all player can be used for understand which player will problably perform better than other.
+I personally use this data for my fantasy football auction.
